@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Science+Gothic:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:"lato",sans-serif ;
+}
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background:linear-gradient(to top left , red ,pink,purple);
+}
+.login-container{
+    width: 400px;
+    margin: 0 auto;
+    position: relative;
+    top: 50% !important;
+    transform: translateY(-50%);
+    /* border: 1px solid black; */
+    text-align: left;
+    z-index: 2;
+    padding: 30px;
+    border-radius: 40px;
+    border-color: aqua;
+    background-image: url(back\ color.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 3px 5px 10px rgba(1, 1, 245, 0.473);
+
+}
+
+.signup-body p input {
+    display: block;
+    width: 90%;
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+    border: 1px ridge rgba(0, 0, 0, 0.144);
+    border-radius: 35px 20px;
+    margin: 5px;
+    background-color: rgba(129, 172, 173, 0.637);
+    box-shadow: 4px 6px 10px rgba(0, 0, 0, 0.404);
+}
+.login-header , footer{
+    text-align: center;
+    margin: 20px;
+}
+label{
+    position: relative;
+    left: 20px;
+}
+.login-header{
+    margin-top: 0;
+}
+ 
+input[type="submit"]{
+    background: linear-gradient(to top left ,red,blue);
+}
+.login-header p{
+    color: rgba(0, 0, 0, 0.336);
+}
+.s1,.s2{
+    font-weight: 900;
+}
+.s1{
+    color: springgreen;
+    font-weight: lighter;
+}
+.s2{
+    color: aqua;
+}
+footer p{
+    color: rgba(0, 0, 0, 0.452);
+}
+.signup-body p  {
+    margin: 5px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    border: none;
+    filter: drop-shadow(3px 5px 10px rgba(0, 0, 0, 0.527));
+}
+.c2{
+    top: 400px;
+    right: 100px;
+    background: linear-gradient(to top left, aqua,gray);
+}
+.c1{
+    left: 100px;
+    top: 100px;
+    background: linear-gradient(to top left, rgb(229, 255, 0),rgba(218, 13, 13, 0.884),green);
+}
+input[type="submit"]:hover{
+    color: white;
+    background: linear-gradient(to top left ,blue,red);
+}
+marquee{
+    color: rgb(255, 255, 255);
+}
